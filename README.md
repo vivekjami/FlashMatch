@@ -26,7 +26,7 @@ FlashMatch leverages ephemeral rollups, an onchain matching engine, and a respon
 ```
 FlashMatch/
 ├── programs/                # Solana smart contracts for the CLOB
-│   └── clob_engine/         # Rust-based matching engine logic
+│   └── flashmatch/         # Rust-based matching engine logic
 ├── frontend/                # React-based trading UI with WebSocket integration
 ├── rollups/                 # Ephemeral rollup service for offchain processing
 ├── indexer/                 # Real-time event indexer for state synchronization
